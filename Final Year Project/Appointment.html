@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tourist Centers - Book Appointment</title>
+  <link rel="stylesheet" type="text/css" href="AppointmentStyle.css"/>
+</head>
+
+<body>
+
+  <div class="topnav">
+     <img src="imgs/kws.jpg" align="left" width="250" >
+     <a href="parks.html" align="center"><font size="6">Find attraction centers</font></a>
+     <a class="active" href="Home.html" align="center"><font size="6">Home </font></a>
+  </div>
+
+
+  <center>
+    <form method="post" action="book2.php">
+      <h2 class="heading">Booking Form</h2>
+      <table>
+        <tr>
+          <td><p>Name</p></td>
+          <td><input type="text"/></td>
+        </tr>
+        <tr>
+          <td><p>Desired Center</p></td>
+          <td>
+            <select name="bookpark" id="bookpark">
+              <option value="maasai_mara" selected="selected">Maasai Mara</option>
+              <option value = "Meru"> Meru National Park</option>
+              <option value = "tsavo" > Tsavo National Park</option>
+              <option value = "Oljogi" > Oljogi National Park</option>
+              <option value = "Samburu" > Samburu National apark</option>
+              <option value = "nakuru" >Lake Nakuru national park </option>
+              <option value = "watamu" > Watamu National park</option>
+              <option value = "diani" > Diani Beach</option>
+              <option value = "malindi" > Malindi Marine National Park</option>
+              <option value = "nai_meuseum" > Nairobi national mesuem</option>
+              <option value = "meru_meseum" > Meru Meseum</option>
+              <option value = "lamu" > Lamu Meseum </option>
+              <option value = "nai_op" > Nairobi Animal orphanage</option>
+              <option value = "safari" >Safari walk children's meseum </option>
+              <option value = "ele" > elephant nursery</option>
+            </select>
+          </td>
+        </tr>
+      </tr>
+      <tr>
+        <td><p>Age</p></td>
+        <td><input type="text"/></td>
+      </tr>
+        <tr>
+          <td><p>Select Date for Appointment</p></td>
+          <td><input type="date"/></td>
+        </tr>
+        <tr>
+          <td><p>Select Time</p></td>
+          <td><input type="time"/></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="button"><input type="submit"  value="Book a visit"/></td>
+        </tr>
+      </table>
+    </form>
+  </center>
+</body>
+</html>
